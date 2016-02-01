@@ -53,8 +53,8 @@ git commit -a -m "примечание"-  совершит коммит, автоматически индексируя измене
 
 git checkout --track -b name_of_newbranch origin/master - создание ветки локально
 
-git push origin local_branch_name:remote_branch_name - создание удаленной ветки
 
+git push origin local_branch_name:remote_branch_name - создание удаленной ветки
 git branch -m <имя_ветки> <новое_имя_ветки> - перименование ветки
 
 git branch -d <имя_ветки> - удалить ветку
@@ -74,3 +74,5 @@ git reset --hard - откатиться к предыдущей сохраненной версии
 Состояние проекта
 
 git status - выводит информацию обо всех изменениях, внесенных в дерево директорий проекта по сравнению с последним коммитом рабочей ветки
+
+TEst 11111
